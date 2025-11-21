@@ -1,0 +1,350 @@
+{
+  "spirits": {},
+  "syrups": {
+    "simple_syrup": {
+      "ratio": "1:1 sugar to water",
+      "brix": 50,
+      "usage": "Universal sweetener for sours, highballs, spritzes.",
+      "notes": "Clean sweetness, fastest dissolving."
+    },
+    "rich_syrup": {
+      "ratio": "2:1 sugar to water",
+      "brix": 66,
+      "usage": "Better for stirred drinks Old Fashioned, Sazerac).",
+      "notes": "Higher viscosity, more body, slower dilution."
+    },
+    "honey_syrup": {
+      "ratio": "1:1 honey to water",
+      "brix": 60,
+      "usage": "Penicillin, Gold Rush, tiki cocktails.",
+      "notes": "Soft floral sweetness, adds weight and aroma."
+    },
+    "agave_syrup": {
+      "ratio": "100% agave",
+      "brix": 75,
+      "usage": "Tommy's Margarita, Paloma variations.",
+      "notes": "High potency sweetness, earthy herbal notes."
+    },
+    "orgeat": {
+      "ratio": "almond milk + sugar + orange blossom water",
+      "brix": 55,
+      "usage": "Mai Tai, Fog Cutter, tiki classics.",
+      "notes": "Nutty, creamy, aromatic — one of the most complex syrups."
+    },
+    "cinnamon_syrup": {
+      "ratio": "1:1 syrup infused with cinnamon",
+      "brix": 50,
+      "usage": "Zombie, tiki drinks, fall cocktails.",
+      "notes": "Warm spice, boosts depth and aroma."
+    },
+    "falernum": {
+      "ratio": "lime zest + clove + ginger + almond + sugar",
+      "brix": 40,
+      "usage": "Tiki essential — Navy Grog, Zombie.",
+      "notes": "Spiced, citrusy, light sweetness."
+    }
+  },
+  "acids": {
+    "citric_acid": {
+      "category": "powdered acid",
+      "description": "Citric acid is the primary acid in lemons and limes. It gives a bright, sharp, very familiar citrus sourness.",
+      "sensory": "Clean, linear and refreshing. Tastes like generic lemon/lime without aroma. High doses can feel a bit 'chemical' or hard on the tongue.",
+      "usage": "Base workhorse for building lime/lemon-style acidity, boosting weak citrus, or correcting sweetness in cordials, sodas and batched cocktails.",
+      "bar_tips": "Great for standardizing sour builds in high-volume service. Pair with malic acid for more natural 'fresh fruit' impression.",
+      "safety": "Food-grade only. Avoid inhaling dust, keep away from eyes, and always dissolve fully before serving. Store dry and tightly closed.",
+      "stock_solution": "Common: 10 g citric acid + 100 ml water → 10% solution. Use 5–15 ml per 100 ml juice or mix, taste and adjust.",
+      "example_applications": "To sharpen orange or pineapple juice for sours; to correct overly sweet cordials; to make shelf-stable lemonade / limeade bases."
+    },
+    "malic_acid": {
+      "category": "powdered acid",
+      "description": "Malic acid is the main acid in apples and many green fruits. It brings a crisp, 'green' style sourness.",
+      "sensory": "Green apple, crunchy, slightly longer finish than citric. Feels less sharp on attack but more persistent on the palate.",
+      "usage": "Used to add green-fruit character, make acidity feel more natural, and to smooth overly linear citric acid blends.",
+      "bar_tips": "Perfect in highballs, spritzes and long drinks with apple, grape, pear and cucumber. Helps weak juices feel fresher without adding lemon aroma.",
+      "safety": "Use food-grade only and dissolve fully. Avoid contact with eyes and inhalation of powder.",
+      "stock_solution": "Standard: 10 g malic acid + 100 ml water → 10% solution. Often 20–40% of a blend with citric for lime-style acids.",
+      "example_applications": "Apple Highballs, clarified green juice highballs, sour-style drinks built on grape or pear, modern 'Green Apple Daiquiri' riffs."
+    },
+    "tartaric_acid": {
+      "category": "powdered acid",
+      "description": "Tartaric acid is the primary acid in grapes and wine. It creates a dry, structured, slightly chalky acidity.",
+      "sensory": "Wine-like, firm and grippy. Gives a dry edge rather than juicy brightness. At high levels can feel a bit rough or astringent.",
+      "usage": "Adds vinous structure to aperitivo drinks, wine-based cocktails and cordials. Useful when mimicking the feel of white wine or Champagne acidity.",
+      "bar_tips": "Use in small percentages in blends 10–30%) to keep drinks elegant, not harsh. Great with vermouth, sherry, grape juices and wine reductions.",
+      "safety": "Food-grade only, dissolve completely. Overuse can cause unpleasant tooth and tongue sensation.",
+      "stock_solution": "10 g tartaric acid + 100 ml water → 10% solution. Dose carefully in 0.5–1 ml steps when adjusting a drink.",
+      "example_applications": "Wine spritzes, clarified white wine punches, Champagne-style non-alcoholic bases, aperitivo highballs with vermouth and soda."
+    },
+    "phosphoric_acid": {
+      "category": "liquid acid",
+      "description": "Phosphoric acid is a very strong, almost flavorless acid used in soft drinks like cola. It provides a sharp, 'electric' acidity without fruit notes.",
+      "sensory": "Neutral taste but very punchy. The sensation is similar to soda/cola sharpness rather than citrus juiciness.",
+      "usage": "Perfect for carbonated drinks, cola-style or tonic-style cocktails, and low-ABV serves where you want brightness without additional fruit character.",
+      "bar_tips": "Combine a tiny amount of phosphoric with citric/malic to extend the length of acidity. Excellent in draft cocktails and sodas where clarity of flavor is important.",
+      "safety": "Always use food-grade, pre-diluted solutions. Never handle strong concentrate without proper training and protection. Measure by weight for consistency.",
+      "stock_solution": "Example: take commercial 10% food-grade phosphoric acid and dilute 1:10 with water to get a ~1% working solution. Use micro-doses 1–5 ml per liter of batch; 1–3 drops per single serve) and taste.",
+      "example_applications": "House cola syrups, clarified ‘gin & tonic’ bases, vermouth sodas, bright zero-proof highballs."
+    },
+    "lactic_acid": {
+      "category": "liquid or powdered acid",
+      "description": "Lactic acid is the acid produced by lactic fermentation yogurt, kefir, pickles). It gives a soft, creamy, rounded acidity.",
+      "sensory": "Yogurt-like, tangy but gentle. Less sharp than citric; adds creamy body and umami.",
+      "usage": "Used to give cocktails a fermented, dairy or 'natural wine' vibe. Great for sour-style drinks, beer or cider cocktails, and modern fermented-style menus.",
+      "bar_tips": "Perfect to support lacto-fermented syrups and yogurt washes. Can turn a basic citrus sour into something more gastronomic and layered.",
+      "safety": "Use food-grade lactic acid only. It is milder than other acids but still must be diluted and fully incorporated.",
+      "stock_solution": "Common working: 10–20% lactic solution. Start at 1–3 ml per drink or 5–20 ml per liter batch, especially when combining with other acids.",
+      "example_applications": "Yogurt-style sours, beer sours, fermented fruit highballs, 'yakult' inspired drinks, modern twists on Piña Colada or Ramos-style textures."
+    },
+    "ascorbic_acid": {
+      "category": "antioxidant acid",
+      "description": "Ascorbic acid vitamin C) is a mild acid used more as an antioxidant than for sourness. It slows oxidation and browning in juices.",
+      "sensory": "Very light, slightly tart, somewhat metallic in high doses. Not ideal as a main acidity source for sours.",
+      "usage": "Mainly to protect color and freshness in clarified juices, cordials and batched cocktails containing apple, pear, cucumber or other easily oxidizing ingredients.",
+      "bar_tips": "Think of it as 'preservation support', not your primary souring tool. Use together with citric/malic for structure, and ascorbic just for stability.",
+      "safety": "Food-grade vitamin C is very safe at bar levels, but still should be dosed and dissolved properly.",
+      "stock_solution": "5–10 g ascorbic acid in 100 ml water. Use 0.5–5 ml per liter of juice or batch, adjusting based on how oxidative the mix is.",
+      "example_applications": "Clarified green apple juice, cucumber highball bases, pear or grape sodas, pre-batched citrus cordials for service."
+    },
+    "lime_acid_blend": {
+      "category": "acid blend",
+      "description": "A lime-style acid blend using citric and malic acids to mimic the structure of fresh lime juice.",
+      "sensory": "Juicy, bright, with a green edge from malic. Closer to natural lime than pure citric alone.",
+      "usage": "Used to convert neutral or sweet juices apple, pineapple, orange) into lime substitutes, and to create stable sour bases for batching.",
+      "bar_tips": "Remember: this brings structure, not aroma. Add lime zest oils, cordial or oleo for full lime character.",
+      "safety": "Same as individual acids: food-grade powders, accurately weighed, fully dissolved.",
+      "stock_solution": "Blend: 70% citric, 30% malic by weight. Dissolve 10 g blend in 100 ml water for a 10% solution. Aim for pH around 2.2–2.6 if you want 'real lime' intensity.",
+      "example_applications": "Fake-lime Daiquiri, Tommy's-style builds with orange juice, clarified 'lime' sodas, draft Margarita bases without fresh citrus."
+    },
+    "lemon_acid_blend": {
+      "category": "acid blend",
+      "description": "A lemon-style acid blend using citric and tartaric acids to mimic the sharper profile of lemon juice.",
+      "sensory": "Snappy, linear and slightly drier than lime-style blends due to tartaric's wine-like grip.",
+      "usage": "Used for clarified lemonades, sherbets, classic punch bases, and lemon-based sours where fresh juice is unstable or unavailable.",
+      "bar_tips": "Works very well with tea, wine, vermouth and sherry. Gives 'classic lemonade' vibes when paired with sugar and citrus oils.",
+      "safety": "Same as other powdered acid blends; always label clearly to avoid confusion.",
+      "stock_solution": "Blend: about 80% citric, 20% tartaric by weight. Dissolve 10 g in 100 ml water for 10% solution. Target pH 2.4–2.8 for lemon-like sharpness.",
+      "example_applications": "Clarified lemonades, tea punches, sherry cobblers, sparkling lemon highballs, non-alcoholic 'Tom Collins' bases."
+    },
+    "acidified_juice_general": {
+      "category": "technique",
+      "description": "Acidified juice is any juice whose pH and sourness have been adjusted with acids to behave like citrus in cocktails.",
+      "sensory": "Can range from soft to very sharp depending on acids used. Idea is: sweetness from the original juice, structure from added acids.",
+      "usage": "Transforms cheap, stable or local juices into fully functional 'sour components' for sours, highballs, tiki and spritz programs.",
+      "bar_tips": "Always taste inside a cocktail template, not only as a straight juice. Target pH for classic sour builds usually lives around 2.3–2.8.",
+      "safety": "Measure acids by weight, write recipes down, and keep labels accurate to avoid over-acidified batches.",
+      "stock_solution": "Typical workflow: measure starting pH and brix; add acid blends in 0.1–0.3 g increments per 100 ml until structure feels right and pH hits the target range.",
+      "example_applications": "Acidified orange for Margaritas, acidified pineapple for Daiquiri riffs, acidified grape for spritzes and wine-style zero-ABV serves."
+    }
+  },
+  "ice": {},
+  "methods": {
+    "milk_clarification": {
+      "category": "clarification",
+      "description": "Milk clarification is a technique where milk is curdled by acid or tannins and the resulting curds trap pigments, tannins, harsh acids, solids, and off-aromas. The liquid is then filtered through the curd layer.",
+      "usage": "Used to turn cloudy or aggressive drinks into clear, silky, stable cocktails. Great for clarified punches, Piña Colada-style drinks, clarified Espresso Martinis, bitter tiki drinks and spirit-forward aperitivo-style mixes.",
+      "notes": "After filtration the drink becomes more transparent, softer, more velvety and shelf-stable. Milk proteins casein) bind color, tannins and harsh compounds, so the drink tastes rounded and 'creamy' even if there is no milk left in the final serve.",
+      "recipe": "General workflow: build your cocktail or punch, warm milk slightly, add the acidic/tannic mix into the milk not the other way around let it curdle fully, then filter slowly through a fine filter or coffee filter until the liquid runs crystal clear."
+    },
+    "fat_washing": {
+      "category": "infusion",
+      "description": "Fat-washing is a technique where fat oil, butter, bacon fat, etc.) is mixed with alcohol, infused, then chilled so the fat solidifies and can be removed, while flavor and aroma stay in the spirit.",
+      "usage": "Used to add umami, richness and unique flavors to spirits for Old Fashioneds, Negroni variations, Whiskey Sours, Espresso Martinis, tiki drinks and even Martini-style cocktails.",
+      "notes": "The result is a spirit with a smoother texture and deeper body but without greasy mouthfeel. Great fats include browned butter, coconut oil, sesame oil, olive oil, bacon fat, mascarpone, pistachio oil.",
+      "recipe": "Basic ratio: 250–700 ml spirit to 20–60 g fat depending on intensity). Mix warm liquid fat with spirit, stir, infuse at room temperature 1–4 hours, then chill until fat is fully solid. Break the fat cap, strain through a fine filter or coffee filter and store the washed spirit cold."
+    },
+    "yogurt_wash": {
+      "category": "clarification",
+      "description": "Yogurt wash is a softer alternative to milk clarification, using yogurt or kefir to bind tannins and acids while adding a subtle lactic, creamy note.",
+      "usage": "Works well with gin, tequila, mezcal and rum drinks where you want a tangy, creamy edge without heavy dairy. Good for sour-style cocktails, light tiki and aperitivo twists.",
+      "notes": "Lactic acidity adds complexity and a gentle tang. Compared to milk, yogurt wash often gives a more aromatic, less neutral profile and can leave a silky, almost ‘yoghurt soda’ vibe in long drinks.",
+      "recipe": "Stir yogurt or kefir into the mixed cocktail base usually 5–20% of total volume let it curdle and separate, then filter slowly through a fine or coffee filter until the drink runs clear and stable."
+    },
+    "agar_clarification": {
+      "category": "clarification",
+      "description": "Agar clarification uses agar-agar a gelling agent from seaweed) to create a weak gel that breaks, trapping solids while clear liquid drains away.",
+      "usage": "Ideal for clarifying juices and purees citrus, berry, tropical) when you want bright flavor, high clarity and a vegan, dairy-free process.",
+      "notes": "Unlike milk clarification, agar does not soften tannins or acidity much, so the flavor stays sharp while the appearance becomes crystal clear.",
+      "recipe": "Typical ratio: 0.2–0.6% agar by weight. Heat juice with agar to full activation usually 85–95°C cool until a soft gel forms, then break the gel and hang or strain through a fine filter or cloth to collect the clarified juice."
+    },
+    "acid_adjusted_juices": {
+      "category": "acids",
+      "description": "Acid-adjusted juices are juices whose acidity profile is modified with pure acids like citric, malic, tartaric or phosphoric to mimic another juice or to tune brightness.",
+      "usage": "Used to standardize sourness, turn orange or pineapple into 'fake lime/lemon', and keep consistent flavor all year round for high-volume bars and batched cocktails.",
+      "notes": "Helps control pH and perceived sharpness independently of sugar level. Also allows cheaper or more stable juices to behave like fresh citrus.",
+      "recipe": "Measure base juice brix and pH, then add food-grade acids in 0.1–0.3 g steps per 100 ml, stir and re-measure until you reach target pH and flavor. Common combo: citric + malic for lime-like brightness, or citric + tartaric for lemon-like snap."
+    },
+    "lacto_ferment_syrups": {
+      "category": "fermentation",
+      "description": "Lacto-ferment syrups are made by fermenting fruit with salt and lactic acid bacteria, then turning the fermented brine and fruit into a sweet-sour syrup.",
+      "usage": "Adds funk, umami and complex acidity to sours, highballs, tiki drinks and modern low-ABV cocktails.",
+      "notes": "Brings a savory, pickle-like depth that amplifies fruit and creates a 'living' acidity. Great with tomatoes, berries, stone fruits, pineapple, apples.",
+      "recipe": "Base method: toss fruit with 2–3% salt by weight, pack in a jar, let ferment at room temperature until bubbling and tangy. Strain, then mix the brine and fruit with sugar to taste to create a stable syrup, store chilled."
+    },
+    "fruit_oleo_saccharum": {
+      "category": "extraction",
+      "description": "Fruit oleo-saccharum is a syrup made by extracting aromatic oils from citrus peels or fruit skins using sugar as a solvent.",
+      "usage": "Classic punch and tiki tool for intense, fresh aroma. Used in punches, Daiquiri variations, spritzes, highballs and any drink where you want maximum citrus or fruit top notes.",
+      "notes": "Sugar pulls essential oils out of the peels, creating a highly aromatic syrup with very little water. Works best with unwaxed citrus, berries, stone fruit peels.",
+      "recipe": "Peel citrus or slice fruit weigh and mix with equal weight of sugar. Massage and leave covered for several hours to overnight until sugar turns into syrup. Strain, optionally dilute slightly with juice or water to desired intensity and store cold."
+    },
+    "sous_vide_infusion": {
+      "category": "thermal technique",
+      "description": "Sous-vide infusion uses controlled low-temperature cooking in vacuum bags or sealed containers to infuse flavors into spirits, syrups or juices with high precision and minimal evaporation.",
+      "usage": "Great for delicate botanicals, herbs, spices, coffee, cacao and fruit where you want maximum aroma without stewing or bitterness. Works well for house gins, spiced rums, cacao-washed spirits and syrups.",
+      "notes": "Temperature control is key: lower temps preserve freshness, higher temps speed extraction but risk cooked flavors or bitterness. Vacuum or tight sealing avoids dilution and oxidation.",
+      "recipe": "Common ranges: 45–65°C for 30–120 minutes depending on ingredient. Bag spirit + flavoring, remove air, cook sous-vide, then chill quickly and fine-strain. Always label with date, strength and ingredients."
+    },
+    "carbonation": {
+      "category": "carbonation",
+      "description": "Forced carbonation is saturating a drink with CO₂ using a siphon, keg, carbonation rig or soda machine to create fine, controlled bubbles.",
+      "usage": "Used for highballs, spritzes, bottled cocktails and draft serves where you want integrated bubbles, not just soda poured on top.",
+      "notes": "Colder liquid absorbs more CO₂. Sugar, alcohol and oils all change bubble texture and foam. Over-carbonation can make acidity feel harsh.",
+      "recipe": "Chill the mix close to 0–2°C, strain very clear, then charge in a siphon 1–2 cartridges) or in a keg system to 2.5–3.0 volumes of CO₂. Rest cold for a few minutes and serve fast."
+    },
+    "nitro_service": {
+      "category": "gas infusion",
+      "description": "Nitro service uses nitrogen N₂) or nitrous oxide N₂O) to create a creamy, cascading texture similar to stout beer or nitro cold brew coffee.",
+      "usage": "Ideal for Espresso Martinis, cold brew cocktails, creamy sours, dessert drinks and modern 'nitro on tap' serves.",
+      "notes": "Nitrogen gives tiny, soft bubbles and a long cascade. N₂O adds slight sweetness and enhances aromas. Works best with drinks that already have some body coffee, cream, egg white, coconut).",
+      "recipe": "Fine-strain the cocktail into a siphon, chill well, charge 1–2 cartridges N₂ or N₂O shake hard, rest horizontally for a minute, then pour aggressively into the glass to create the cascade."
+    },
+    "sherbet_preparation": {
+      "category": "sherbet",
+      "description": "Bar sherbet is a citrus-sugar concentrate made by combining citrus juice, peel oils and sugar into a high-intensity sweet-sour syrup.",
+      "usage": "Classic punch and soda base; replaces both sugar and part of the acid. Used in Collins-style drinks, punches, lemonades and high-volume batched cocktails.",
+      "notes": "Sherbet captures citrus aroma better than simple syrup plus juice. You can build layers using mixed citrus lemon, lime, grapefruit, orange) and tea or wine.",
+      "recipe": "Grate or peel citrus, muddle peels with sugar until oily, rest for several hours, then add fresh juice and stir to dissolve. Fine-strain and store chilled. Typical ratio: equal parts juice and sugar by weight, adjusted to taste."
+    }
+  },
+  "cordials": {
+    "overview": {
+      "category": "general",
+      "description": "Cordials are concentrated, clarified, shelf-stable citrus or fruit bases made by combining juice, sugar, zest oils, and sometimes acids. Unlike simple syrups, cordials contain both sweetness and acidity.",
+      "why_use": "Cordials allow bartenders to replace unstable fresh citrus with a bright, long-lasting and consistent alternative. They are essential for batching, draft cocktails and high-end modern menus.",
+      "advantages": "• Long shelf-life 1–3 weeks refrigerated)\n• Stronger and cleaner flavor than juice\n• Perfect balance of sugar + acid\n• Works for sours, highballs, spritzes, and clarifications\n• Allows 'citrus without citrus' builds in sustainable programs",
+      "core_principle": "A cordial contains three elements in harmony:\n1) Sugar brix)\n2) Acidity pH)\n3) Aroma zest oils or extracted fruit compounds)\n\nA perfect cordial feels juicy, sharp, aromatic and clean.",
+      "basic_method": "1. Zest the fruit for oils).\n2. Massage zest with sugar to pull essential oils → oleo-saccharum.\n3. Add juice and dissolve sugar fully.\n4. Add acids if needed citric / malic / tartaric).\n5. Fine-strain or clarify optional).\n6. Bottle and refrigerate.",
+      "applications": "• Clarified Daiquiri / Margarita bases\n• Highballs and sodas\n• Modern spritz programs\n• Draft cocktails\n• Tiki cordials and fruit punches"
+    },
+    "lime_cordial": {
+      "category": "citrus cordial",
+      "description": "Rich lime syrup built from lime juice, lime peels and sugar. Works as a combined sweet-and-sour component for sours and highballs.",
+      "brix": 55,
+      "usage": "Use instead of fresh lime + sugar syrup in Gimlet-style drinks, highballs, sodas and batched Margarita / Daiquiri riffs.",
+      "notes": "Compared to fresh lime + sugar, a cordial is more stable, more aromatic from peel oils, and easier to batch. Adjust acidity with citric/malic if needed.",
+      "recipe": "Zest or peel unwaxed limes, mix peels with equal weight of sugar and massage. Let sit until sugar turns into syrup. Add fresh lime juice roughly equal weight to sugar stir to dissolve, fine-strain, keep chilled.",
+      "example_applications": "Gimlet, Collins riffs, soda highballs, draft Margarita-style cocktails."
+    },
+    "lemon_sherbet_cordial": {
+      "category": "citrus cordial",
+      "description": "Lemon sherbet-style cordial where citrus peels and juice are combined with sugar to create an intense lemon sweet-sour base.",
+      "brix": 55,
+      "usage": "Use as the main sweet-and-sour base in punches, Collins, lemonades and spritzes. Replaces both lemon juice and simple syrup.",
+      "notes": "Sherbet captures peel oils better than simple lemonade. Can be blended with tea, wine or vermouth for classic punch profiles.",
+      "recipe": "Peel lemons, rub peels with sugar 1:1 by weight) until oily, rest several hours or overnight. Add fresh lemon juice, stir to dissolve fully, fine-strain and store cold.",
+      "example_applications": "Tom Collins variations, champagne punches, boozy lemonades, clarified lemon sodas."
+    },
+    "grapefruit_oleo_cordial": {
+      "category": "citrus cordial",
+      "description": "Bright, slightly bitter grapefruit cordial made from peel oils, juice and sugar.",
+      "brix": 50,
+      "usage": "Perfect for Paloma riffs, tequila and mezcal highballs, spritzes and tiki drinks where you want grapefruit bite but with controlled bitterness.",
+      "notes": "Removing most pith and using only peel + juice keeps bitterness in check. Acid can be adjusted with citric/malic if the fruit is too sweet.",
+      "recipe": "Peel pink or white grapefruit avoiding pith mix peels with equal weight sugar, rest until syrup forms. Add fresh grapefruit juice, stir, fine-strain. Optionally add a little citric/malic blend to sharpen.",
+      "example_applications": "Clarified Paloma highballs, mezcal spritzes, tequila Collins, grapefruit-forward tiki punches."
+    },
+    "pineapple_cordial": {
+      "category": "tropical cordial",
+      "description": "Pineapple-based cordial with adjusted acidity and boosted aroma, more stable and intense than fresh juice.",
+      "brix": 55,
+      "usage": "Used in Piña Colada riffs, Daiquiri variations, tiki bowls and long tropical highballs.",
+      "notes": "Acid-adjusted with citric/malic to behave like a sour component. Great candidate for clarification agar or centrifuge) before service.",
+      "recipe": "Juice ripe pineapple, measure brix and pH. Add sugar until ~50–60 brix, then adjust acidity with citric/malic blend to pH around 2.6–2.9. Optionally clarify with agar and bottle cold.",
+      "example_applications": "Clarified Piña Colada, pineapple Daiquiri, tiki spritzes, zero-proof tropical sodas."
+    },
+    "passionfruit_cordial": {
+      "category": "tropical cordial",
+      "description": "Intense sweet-sour passion fruit cordial built from pulp, sugar and adjusted acids.",
+      "brix": 60,
+      "usage": "Key component for Pornstar Martini style drinks, tiki cocktails, sour-style highballs and dessert-style signatures.",
+      "notes": "Passion fruit has high natural acidity; you can balance with sugar and a touch of lactic for creamier feel, or push citric for sharper, fresher style.",
+      "recipe": "Combine passion fruit pulp with sugar at 1:1–1:1.5 by weight, stir until dissolved. Adjust with citric/malic/lactic to target pH 2.6–3.0. Fine-strain seeds if desired and store chilled.",
+      "example_applications": "Pornstar-style Martinis, rum or tequila sours, champagne-topped tropical cocktails."
+    },
+    "berry_cordial": {
+      "category": "fruit cordial",
+      "description": "Cordial based on macerated berries raspberry, blackberry, strawberry, etc.) with sugar and adjusted acid.",
+      "brix": 55,
+      "usage": "Used for Bramble-style highballs, spritzes, champagne cocktails and dessert sours.",
+      "notes": "Combining citric and malic gives bright, 'fresh berry' impression. Ascorbic acid helps preserve color and prevent browning.",
+      "recipe": "Cover fresh or frozen berries with sugar about 1:1 by weight rest until juices release. Add a little water or juice if needed, then adjust acidity with citric/malic and a touch of ascorbic. Fine-strain and keep cold.",
+      "example_applications": "Berry Collins, sparkling berry spritz, sour-style gin or vodka cocktails, low-ABV berry highballs."
+    },
+    "herbal_tea_cordial": {
+      "category": "aromatic cordial",
+      "description": "Cordial made from concentrated herbal or tea infusions earl grey, jasmine, chamomile, hibiscus) with sugar and acid adjustment.",
+      "brix": 50,
+      "usage": "Ideal for spritzes, highballs, non-alcoholic cocktails and light aperitivo drinks.",
+      "notes": "Tea brings tannins and structure; balance with a bit more sugar or texture egg white, aquafaba, soda). Hibiscus and berry teas also add color.",
+      "recipe": "Brew a strong tea 2–4x usual strength strain, then add sugar to reach ~45–55 brix. Adjust acidity with citric/tartaric depending on style; chill and bottle.",
+      "example_applications": "Earl Grey spritz, jasmine gin highballs, hibiscus tequila sours, NA iced-tea cocktails."
+    },
+    "apple_verjus_cordial": {
+      "category": "wine-style cordial",
+      "description": "Apple-based cordial designed to mimic verjus/young wine acidity with added structure from tartaric/malic acids.",
+      "brix": 45,
+      "usage": "Replaces wine or verjus in low-ABV spritzes, aperitivo highballs and modern 'wine' zero-proof serves.",
+      "notes": "Malic gives green apple snap, tartaric adds wine-like grip. Works very well with vermouth, sherry, amaro and aperitivo liqueurs.",
+      "recipe": "Juice tart apples, add sugar to ~40–50 brix, then adjust acidity with malic + tartaric to pH around 2.8–3.1. Optionally add a touch of citric for brightness, bottle and keep cold.",
+      "example_applications": "Spritz bases, apple-verjus highballs, low-ABV Collins, non-alcoholic 'white wine' sodas."
+    }
+  },
+  "garnishes": {},
+  "homemade": {},
+  "balance": {
+    "overview": {
+      "category": "concept",
+      "description": "Balance in cocktails is not only about sweet vs sour, but also about strength, temperature, dilution, aroma, texture, bitterness, umami, and finish."
+    },
+    "brix_vs_ph": {
+      "category": "sweetness vs acidity",
+      "description": "Perceived sweetness depends on sugar level brix acidity pH and alcohol. Lower pH makes a drink feel sharper and drier, higher brix softens alcohol burn.",
+      "note": "A classic sour Daiquiri / Margarita) is roughly 2 parts strong, 1 part acid, 0.75–1 part sugar by volume, but real balance depends on the actual juice and syrup."
+    },
+    "dilution_curve": {
+      "category": "dilution",
+      "description": "Dilution during shake or stir directly affects strength and texture. A hard shake often adds about 20–30% water to the drink volume. Stirred drinks typically gain 10–20% depending on ice quality and time.",
+      "note": "Dense, cold ice melts slower and gives less water over the same time. Soft, porous ice melts fast and washes out the flavor."
+    },
+    "temperature_impact": {
+      "category": "temperature",
+      "description": "Lower temperature suppresses perceived sweetness and aroma, but keeps structure tighter. Warmer drinks release more aroma, but alcohol shows more aggressively.",
+      "note": "Overly warm Martini or Negroni feels heavy and boozy, over-chilled sours may feel thin and flat."
+    },
+    "aromatic_layering": {
+      "category": "aroma",
+      "description": "Aroma balance comes in layers: base spirit body liqueurs and vermouth mid and citrus oils or garnishes top). Garnish is not decoration — it is a full flavor layer.",
+      "note": "If a drink feels short, do not only change sugar/acid. Sometimes a correct garnish or a touch of bitters fixes the length."
+    },
+    "bitterness_control": {
+      "category": "bitterness",
+      "description": "Bitterness comes from more than Campari: bitters, amaro, tea, zest, over-extracted spirits — all bring different types of bitterness. Too little bitterness makes drinks childish; too much makes them harsh and dry.",
+      "note": "As a bar guideline: 1 dash of bitters is roughly 0.8–1 ml. A couple of extra dashes can noticeably dry the drink."
+    },
+    "texture_modifiers": {
+      "category": "texture",
+      "description": "Texture strongly influences sweetness and strength perception. Egg white, aquafaba, cream, coconut, orgeat, and fat-washing all make the body richer and smoother.",
+      "note": "Dry shake then wet shake with egg white or aquafaba gives a creamy, velvety texture and hides sharp alcohol edges."
+    },
+    "umami_balance": {
+      "category": "umami",
+      "description": "Umami and salt enhance body and length without making a drink sweeter. A drop of saline solution, miso, mushroom, or tomato elements can add depth and complexity.",
+      "note": "Too much umami or salt turns a cocktail into soup. Use micro-doses 0.5–1 ml of 10% saline per drink)."
+    },
+    "tannin_management": {
+      "category": "tannins",
+      "description": "Tannins from wine, tea syrups, some amaro and bitters create dryness and grip. This can extend finish, but easily over-dries the drink.",
+      "note": "If using red wine New York Sour tea syrups, or very tannic amaro, you may need a bit more sugar or fat egg white, cream, coconut)."
+    }
+  }
+}

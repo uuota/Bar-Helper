@@ -1,0 +1,1444 @@
+{
+  "cocktails": [
+    {
+      "name": "Paper Plane",
+      "base": "whisky",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "bourbon",
+          "amount": 30
+        },
+        {
+          "name": "aperol",
+          "amount": 30
+        },
+        {
+          "name": "amaro nonino",
+          "amount": 30
+        },
+        {
+          "name": "lemon juice",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Penicillin",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "blended scotch",
+          "amount": 50
+        },
+        {
+          "name": "honey-ginger syrup",
+          "amount": 20
+        },
+        {
+          "name": "lemon juice",
+          "amount": 20
+        },
+        {
+          "name": "peated scotch (float)",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Naked and Famous",
+      "base": "mezcal",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "mezcal",
+          "amount": 22
+        },
+        {
+          "name": "yellow chartreuse",
+          "amount": 22
+        },
+        {
+          "name": "aperol",
+          "amount": 22
+        },
+        {
+          "name": "lime juice",
+          "amount": 22
+        }
+      ]
+    },
+    {
+      "name": "Oaxaca Old Fashioned",
+      "base": "mezcal",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "reposado tequila",
+          "amount": 45
+        },
+        {
+          "name": "mezcal",
+          "amount": 15
+        },
+        {
+          "name": "agave syrup",
+          "amount": 5
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Tommy's Margarita",
+      "base": "tequila",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "amount": 60
+        },
+        {
+          "name": "lime juice",
+          "amount": 30
+        },
+        {
+          "name": "agave syrup",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "base": "gin",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 40
+        },
+        {
+          "name": "lemon juice",
+          "amount": 20
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        },
+        {
+          "name": "blackberry liqueur (float)",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Espresso Martini (Modern)",
+      "base": "vodka",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "coffee",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 40
+        },
+        {
+          "name": "coffee liqueur",
+          "amount": 20
+        },
+        {
+          "name": "espresso",
+          "amount": 30
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Martini",
+      "base": "gin",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 45
+        },
+        {
+          "name": "cointreau",
+          "amount": 15
+        },
+        {
+          "name": "lemon juice",
+          "amount": 15
+        },
+        {
+          "name": "orange marmalade",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "The Last Word",
+      "base": "gin",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 25
+        },
+        {
+          "name": "green chartreuse",
+          "amount": 25
+        },
+        {
+          "name": "maraschino liqueur",
+          "amount": 25
+        },
+        {
+          "name": "lime juice",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "name": "Jungle Bird",
+      "base": "rum",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "dark rum",
+          "amount": 45
+        },
+        {
+          "name": "campari",
+          "amount": 15
+        },
+        {
+          "name": "pineapple juice",
+          "amount": 45
+        },
+        {
+          "name": "lime juice",
+          "amount": 15
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "White Negroni",
+      "base": "gin",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 30
+        },
+        {
+          "name": "suze",
+          "amount": 30
+        },
+        {
+          "name": "lillet blanc",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Gold Rush",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "bourbon",
+          "amount": 50
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "honey syrup",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Amaretto Sour (modern)",
+      "base": "amaretto",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "amaretto",
+          "amount": 45
+        },
+        {
+          "name": "bourbon",
+          "amount": 15
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        },
+        {
+          "name": "egg white",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Paper Kite",
+      "base": "gin",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 40
+        },
+        {
+          "name": "aperol",
+          "amount": 20
+        },
+        {
+          "name": "elderflower liqueur",
+          "amount": 20
+        },
+        {
+          "name": "lemon juice",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Corpse Reviver No.2",
+      "base": "gin",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 25
+        },
+        {
+          "name": "cointreau",
+          "amount": 25
+        },
+        {
+          "name": "lillet blanc",
+          "amount": 25
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "absinthe (rinse)",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Kingston Negroni",
+      "base": "rum",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "jamaican rum",
+          "amount": 30
+        },
+        {
+          "name": "campari",
+          "amount": 30
+        },
+        {
+          "name": "sweet vermouth",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Boulevardier",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "bourbon",
+          "amount": 30
+        },
+        {
+          "name": "campari",
+          "amount": 30
+        },
+        {
+          "name": "sweet vermouth",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Mezcal Mule",
+      "base": "mezcal",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "mezcal",
+          "amount": 50
+        },
+        {
+          "name": "lime juice",
+          "amount": 20
+        },
+        {
+          "name": "ginger beer",
+          "amount": 120
+        }
+      ]
+    },
+    {
+      "name": "Black Manhattan",
+      "base": "whisky",
+      "glass": "coupe",
+      "method": "stir",
+      "style": "modern classic",
+      "ingredients": [
+        {
+          "name": "rye whiskey",
+          "amount": 60
+        },
+        {
+          "name": "averna amaro",
+          "amount": 25
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        },
+        {
+          "name": "orange bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Bloody Mary",
+      "base": "vodka",
+      "glass": "highball",
+      "method": "build",
+      "style": "long drink",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 40
+        },
+        {
+          "name": "tomato juice",
+          "amount": 120
+        },
+        {
+          "name": "lemon juice",
+          "amount": 10
+        },
+        {
+          "name": "worcestershire sauce",
+          "amount": null
+        },
+        {
+          "name": "tabasco",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "amount": null
+        },
+        {
+          "name": "pepper",
+          "amount": null
+        },
+        {
+          "name": "celery stick",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Cosmopolitan",
+      "base": "vodka",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 40
+        },
+        {
+          "name": "triple sec",
+          "amount": 20
+        },
+        {
+          "name": "cranberry juice",
+          "amount": 30
+        },
+        {
+          "name": "lime juice",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "base": "vodka",
+      "glass": "highball",
+      "method": "build",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 15
+        },
+        {
+          "name": "gin",
+          "amount": 15
+        },
+        {
+          "name": "rum",
+          "amount": 15
+        },
+        {
+          "name": "tequila",
+          "amount": 15
+        },
+        {
+          "name": "triple sec",
+          "amount": 15
+        },
+        {
+          "name": "lemon juice",
+          "amount": 20
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        },
+        {
+          "name": "cola",
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "base": "rum",
+      "glass": "highball",
+      "method": "build",
+      "style": "long drink",
+      "ingredients": [
+        {
+          "name": "rum",
+          "amount": 50
+        },
+        {
+          "name": "lime juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar",
+          "amount": null
+        },
+        {
+          "name": "mint",
+          "amount": null
+        },
+        {
+          "name": "soda water",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Mai Tai",
+      "base": "rum",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "rum",
+          "amount": 40
+        },
+        {
+          "name": "dark rum",
+          "amount": 20
+        },
+        {
+          "name": "orange curaçao",
+          "amount": 15
+        },
+        {
+          "name": "lime juice",
+          "amount": 20
+        },
+        {
+          "name": "orgeat syrup",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "name": "Cuba Libre",
+      "base": "rum",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "rum",
+          "amount": 50
+        },
+        {
+          "name": "cola",
+          "amount": 120
+        },
+        {
+          "name": "lime",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Whisky Sour",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "whisky",
+          "amount": 50
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 15
+        },
+        {
+          "name": "egg white",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Manhattan",
+      "base": "whisky",
+      "glass": "coupe",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "bourbon or rye",
+          "amount": 50
+        },
+        {
+          "name": "sweet vermouth",
+          "amount": 20
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Whisky Highball",
+      "base": "whisky",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "whisky",
+          "amount": 40
+        },
+        {
+          "name": "soda water",
+          "amount": 120
+        }
+      ]
+    },
+    {
+      "name": "Tom Collins",
+      "base": "gin",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 50
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 15
+        },
+        {
+          "name": "soda water",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "French 75",
+      "base": "gin",
+      "glass": "flute",
+      "method": "shake",
+      "style": "spritz",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 30
+        },
+        {
+          "name": "lemon juice",
+          "amount": 15
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        },
+        {
+          "name": "champagne",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Gin Tonic",
+      "base": "gin",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 50
+        },
+        {
+          "name": "tonic water",
+          "amount": 120
+        },
+        {
+          "name": "lime",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Gin Fizz",
+      "base": "gin",
+      "glass": "highball",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 45
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 15
+        },
+        {
+          "name": "soda water",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Tequila Sunrise",
+      "base": "tequila",
+      "glass": "highball",
+      "method": "build",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "amount": 50
+        },
+        {
+          "name": "orange juice",
+          "amount": 120
+        },
+        {
+          "name": "grenadine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Tequila Shot",
+      "base": "tequila",
+      "glass": "shot",
+      "method": "no_dilution",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "amount": 50
+        },
+        {
+          "name": "salt",
+          "amount": null
+        },
+        {
+          "name": "lime",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Aperol Spritz",
+      "base": "wine",
+      "glass": "wine",
+      "method": "build",
+      "style": "spritz",
+      "ingredients": [
+        {
+          "name": "aperol",
+          "amount": 60
+        },
+        {
+          "name": "prosecco",
+          "amount": 90
+        },
+        {
+          "name": "soda water",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Bellini",
+      "base": "wine",
+      "glass": "flute",
+      "method": "no_dilution",
+      "style": "spritz",
+      "ingredients": [
+        {
+          "name": "peach purée",
+          "amount": 50
+        },
+        {
+          "name": "prosecco",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "name": "Kir Royal",
+      "base": "wine",
+      "glass": "flute",
+      "method": "no_dilution",
+      "style": "spritz",
+      "ingredients": [
+        {
+          "name": "crème de cassis",
+          "amount": 15
+        },
+        {
+          "name": "champagne",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "name": "Irish Coffee",
+      "base": "whisky",
+      "glass": "irish coffee mug",
+      "method": "build",
+      "style": "coffee",
+      "ingredients": [
+        {
+          "name": "whisky",
+          "amount": 40
+        },
+        {
+          "name": "hot coffee",
+          "amount": 120
+        },
+        {
+          "name": "brown sugar",
+          "amount": 10
+        },
+        {
+          "name": "whipped cream",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Pina Colada",
+      "base": "rum",
+      "glass": "hurricane",
+      "method": "blend",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "rum",
+          "amount": 40
+        },
+        {
+          "name": "coconut cream",
+          "amount": 30
+        },
+        {
+          "name": "pineapple juice",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "name": "Sex on the Beach",
+      "base": "vodka",
+      "glass": "highball",
+      "method": "build",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 40
+        },
+        {
+          "name": "peach schnapps",
+          "amount": 20
+        },
+        {
+          "name": "orange juice",
+          "amount": 40
+        },
+        {
+          "name": "cranberry juice",
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "name": "Margarita",
+      "base": "tequila",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "amount": 50
+        },
+        {
+          "name": "triple sec",
+          "amount": 20
+        },
+        {
+          "name": "lime juice",
+          "amount": 25
+        },
+        {
+          "name": "salt rim",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Paloma",
+      "base": "tequila",
+      "glass": "highball",
+      "method": "build",
+      "style": "highball",
+      "ingredients": [
+        {
+          "name": "tequila",
+          "amount": 50
+        },
+        {
+          "name": "grapefruit soda",
+          "amount": 120
+        },
+        {
+          "name": "lime juice",
+          "amount": 15
+        },
+        {
+          "name": "agave syrup",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Negroni",
+      "base": "gin",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 30
+        },
+        {
+          "name": "campari",
+          "amount": 30
+        },
+        {
+          "name": "sweet vermouth",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Old Fashioned",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "bourbon or rye",
+          "amount": 50
+        },
+        {
+          "name": "sugar",
+          "amount": null
+        },
+        {
+          "name": "bitters",
+          "amount": 2
+        },
+        {
+          "name": "orange peel",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Daiquiri",
+      "base": "rum",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "rum",
+          "amount": 50
+        },
+        {
+          "name": "lime juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Espresso Martini",
+      "base": "vodka",
+      "glass": "coupe",
+      "method": "shake",
+      "style": "coffee",
+      "ingredients": [
+        {
+          "name": "vodka",
+          "amount": 40
+        },
+        {
+          "name": "coffee liqueur",
+          "amount": 20
+        },
+        {
+          "name": "espresso",
+          "amount": 30
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Vieux Carré",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "rye whiskey",
+          "amount": 30
+        },
+        {
+          "name": "cognac",
+          "amount": 30
+        },
+        {
+          "name": "sweet vermouth",
+          "amount": 30
+        },
+        {
+          "name": "benedictine",
+          "amount": 7
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        },
+        {
+          "name": "peychaud's bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Sazerac",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "rye whiskey",
+          "amount": 50
+        },
+        {
+          "name": "absinthe (rinse)",
+          "amount": null
+        },
+        {
+          "name": "sugar cube",
+          "amount": null
+        },
+        {
+          "name": "peychaud's bitters",
+          "amount": null
+        },
+        {
+          "name": "lemon peel",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "New York Sour",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "shake",
+      "style": "sours",
+      "ingredients": [
+        {
+          "name": "whisky",
+          "amount": 50
+        },
+        {
+          "name": "lemon juice",
+          "amount": 25
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 15
+        },
+        {
+          "name": "red wine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Toronto",
+      "base": "whisky",
+      "glass": "rocks",
+      "method": "stir",
+      "style": "classic",
+      "ingredients": [
+        {
+          "name": "rye whiskey",
+          "amount": 45
+        },
+        {
+          "name": "fernet branca",
+          "amount": 15
+        },
+        {
+          "name": "sugar syrup",
+          "amount": 5
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Zombie",
+      "base": "rum",
+      "glass": "tiki mug",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "jamaican rum",
+          "amount": 30
+        },
+        {
+          "name": "gold rum",
+          "amount": 30
+        },
+        {
+          "name": "151-proof rum",
+          "amount": 15
+        },
+        {
+          "name": "lime juice",
+          "amount": 20
+        },
+        {
+          "name": "grapefruit juice",
+          "amount": 20
+        },
+        {
+          "name": "cinnamon syrup",
+          "amount": 10
+        },
+        {
+          "name": "grenadine",
+          "amount": 5
+        },
+        {
+          "name": "falernum",
+          "amount": 10
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Fog Cutter",
+      "base": "rum",
+      "glass": "tiki mug",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "light rum",
+          "amount": 45
+        },
+        {
+          "name": "cognac",
+          "amount": 15
+        },
+        {
+          "name": "gin",
+          "amount": 15
+        },
+        {
+          "name": "lemon juice",
+          "amount": 20
+        },
+        {
+          "name": "orange juice",
+          "amount": 90
+        },
+        {
+          "name": "orgeat syrup",
+          "amount": 15
+        },
+        {
+          "name": "sherry",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Navy Grog",
+      "base": "rum",
+      "glass": "tiki mug",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "dark rum",
+          "amount": 30
+        },
+        {
+          "name": "gold rum",
+          "amount": 30
+        },
+        {
+          "name": "white rum",
+          "amount": 30
+        },
+        {
+          "name": "lime juice",
+          "amount": 20
+        },
+        {
+          "name": "grapefruit juice",
+          "amount": 20
+        },
+        {
+          "name": "honey syrup",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Painkiller",
+      "base": "rum",
+      "glass": "hurricane",
+      "method": "shake",
+      "style": "tiki",
+      "ingredients": [
+        {
+          "name": "dark rum",
+          "amount": 60
+        },
+        {
+          "name": "pineapple juice",
+          "amount": 120
+        },
+        {
+          "name": "orange juice",
+          "amount": 30
+        },
+        {
+          "name": "coconut cream",
+          "amount": 30
+        },
+        {
+          "name": "nutmeg",
+          "amount": null
+        }
+      ]
+    },
+    {
+      "name": "Blue Hawaii",
+      "base": "rum",
+      "glass": "hurricane",
+      "method": "shake",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "light rum",
+          "amount": 40
+        },
+        {
+          "name": "blue curaçao",
+          "amount": 20
+        },
+        {
+          "name": "pineapple juice",
+          "amount": 80
+        },
+        {
+          "name": "sweet & sour mix",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Singapore Sling",
+      "base": "gin",
+      "glass": "highball",
+      "method": "shake",
+      "style": "shitty classic",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 30
+        },
+        {
+          "name": "cherry liqueur",
+          "amount": 15
+        },
+        {
+          "name": "cointreau",
+          "amount": 7
+        },
+        {
+          "name": "benedictine",
+          "amount": 7
+        },
+        {
+          "name": "pineapple juice",
+          "amount": 80
+        },
+        {
+          "name": "lime juice",
+          "amount": 15
+        },
+        {
+          "name": "grenadine",
+          "amount": 5
+        },
+        {
+          "name": "angostura bitters",
+          "amount": null
+        }
+      ]
+    }
+  ]
+}

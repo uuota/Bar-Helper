@@ -356,12 +356,19 @@ def show_library(library):
     if desc:
         print(f"Description: {desc}")
 
-    if "ratio" in info:
-        print(f"Ratio:     {info['ratio']}")
-    if "brix" in info:
-        print(f"Brix:      {info['brix']}")
-    if "usage" in info:
-        print(f"Usage:     {info['usage']}")
+    # Old version:
+    # if "ratio" in info:
+    #     print(f"Ratio:     {info['ratio']}")
+    # if "brix" in info:
+    #     print(f"Brix:      {info['brix']}")
+    # if "usage" in info:
+    #     print(f"Usage:     {info['usage']}")
+    # if "history" in info:
+    #     print(f"History:     {info['history']}")
+
+    # Search for key-value in info Object (one recipy from BarLibrary) and show every available value
+    for key, value in info.items():
+        print(f"{key:10}: {value}")
 
     sensory = info.get("sensory")
     if sensory:

@@ -43,7 +43,7 @@ def show_all_cocktails(cocktails):
         print(f"{idx}) {c['name']} ({c['base']}, {c.get('style', 'n/a')})")
 
 
-def suggest_by_base(cocktails):
+def suggest_by_base(cocktails, abv_table, dilution_calc):
     bases = sorted({c["base"] for c in cocktails})
     print("\nChoose base spirit:")
     for idx, b in enumerate(bases, start=1):
@@ -64,7 +64,11 @@ def suggest_by_base(cocktails):
         return
 
     base = bases[num - 1]
-    matches = [c for c in cocktails if c["base"] == base]
+
+    matches = []
+    for cocktail in cocktails:
+        if cocktail["base"] == base:
+            matches.append(cocktail)
 
     if not matches:
         print("No cocktails with this base.")
@@ -72,7 +76,7 @@ def suggest_by_base(cocktails):
 
     print(f"\nCocktails with base '{base}':")
     for idx, c in enumerate(matches, start=1):
-        print(f"{idx}) {c['name']} - {calc_abv(c)}% ABV ({c.get('style', 'n/a')})")
+        print(f"{idx}) {c['name']} - {calc_abv(c, abv_table, dilution_calc)}% ABV ({c.get('style', 'n/a')})")
 
     choice = input("\nChoose cocktail number for details (or Enter to cancel): ").strip()
     if choice == "":
@@ -89,7 +93,7 @@ def suggest_by_base(cocktails):
         return
 
     c = matches[choice_num - 1]
-    show_cocktail_details(c)
+    show_cocktail_details(c, abv_table, dilution_calc)
 
 
 def add_cocktail(cocktails):
@@ -145,7 +149,7 @@ def add_cocktail(cocktails):
     print(f"Cocktail '{name}' added!")
 
 
-def find_by_ingredient(cocktails):
+def find_by_ingredient(cocktails, abv_table, dilution_calc):
     ing = input("\nIngredient: ").strip().lower()
 
     matches = []
@@ -161,7 +165,7 @@ def find_by_ingredient(cocktails):
 
     print(f"\nCocktails containing '{ing}':")
     for idx, c in enumerate(matches, start=1):
-        print(f"{idx}) {c['name']} - {calc_abv(c)}% ABV ({c.get('style', 'n/a')})")
+        print(f"{idx}) {c['name']} - {calc_abv(c, abv_table, dilution_calc)}% ABV ({c.get('style', 'n/a')})")
 
     num_str = input("\nChoose cocktail number for details (or Enter to cancel): ").strip()
     if num_str == "":
@@ -178,10 +182,10 @@ def find_by_ingredient(cocktails):
         return
 
     c = matches[num - 1]
-    show_cocktail_details(c)
+    show_cocktail_details(c, abv_table, dilution_calc)
 
 
-def show_cocktails_by_style(cocktails):
+def show_cocktails_by_style(cocktails, abv_table, dilution_calc):
     styles = sorted({c.get("style") for c in cocktails if c.get("style")})
 
     if not styles:
@@ -215,7 +219,7 @@ def show_cocktails_by_style(cocktails):
 
     print(f"\nCocktails with style '{chosen_style}':")
     for idx, c in enumerate(matches, start=1):
-        print(f"{idx}) {c['name']} - {calc_abv(c)}% ABV ({c['base']})")
+        print(f"{idx}) {c['name']} - {calc_abv(c, abv_table, dilution_calc)}% ABV ({c['base']})")
 
     num_str = input("\nChoose cocktail number for details (or Enter to cancel): ").strip()
     if num_str == "":
@@ -232,15 +236,19 @@ def show_cocktails_by_style(cocktails):
         return
 
     c = matches[num - 1]
-    show_cocktail_details(c)
+    show_cocktail_details(c, abv_table, dilution_calc)
 
 
-def show_cocktails_sorted_by_abv(cocktails):
+def show_cocktails_sorted_by_abv(cocktails, abv_table, dilution_calc):
     print("\n--- Cocktails sorted by strength (ABV, high → low) ---")
-    sorted_list = sorted(cocktails, key=calc_abv, reverse=True)
+    sorted_list = sorted(
+        cocktails,
+        key=lambda cocktail: calc_abv(cocktail, abv_table, dilution_calc),
+        reverse=True
+    )
 
     for idx, c in enumerate(sorted_list, start=1):
-        print(f"{idx}) {c['name']} - {calc_abv(c)}% ABV ({c['base']}, {c.get('style', 'n/a')})")
+        print(f"{idx}) {c['name']} - {calc_abv(c, abv_table, dilution_calc)}% ABV ({c['base']}, {c.get('style', 'n/a')})")
 
     num_str = input("\nChoose cocktail number for details (or Enter to cancel): ").strip()
     if num_str == "":
@@ -257,17 +265,17 @@ def show_cocktails_sorted_by_abv(cocktails):
         return
 
     c = sorted_list[num - 1]
-    show_cocktail_details(c)
+    show_cocktail_details(c, abv_table, dilution_calc)
 
 
-def show_cocktail_details(c):
+def show_cocktail_details(c, abv_table, dilution_calc):
     print("\n--- Cocktail details ---")
     print(f"Name:   {c['name']}")
     print(f"Base:   {c['base']}")
     print(f"Style:  {c.get('style', 'n/a')}")
     print(f"Glass:  {c.get('glass', 'n/a')}")
     print(f"Method: {c.get('method', 'n/a')}")
-    print(f"ABV:    {calc_abv(c)}%")
+    print(f"ABV:    {calc_abv(c, abv_table, dilution_calc)}%")
     print("Ingredients:")
     for item in c["ingredients"]:
         if item["amount"] is None:
@@ -405,15 +413,15 @@ def main():
         if choice == "1":
             show_all_cocktails(cocktails)
         elif choice == "2":
-            suggest_by_base(cocktails)
+            suggest_by_base(cocktails, abv_table, dilution_calc)
         elif choice == "3":
             add_cocktail(cocktails)
         elif choice == "4":
-            find_by_ingredient(cocktails)
+            find_by_ingredient(cocktails, abv_table, dilution_calc)
         elif choice == "5":
-            show_cocktails_by_style(cocktails)
+            show_cocktails_by_style(cocktails, abv_table, dilution_calc)
         elif choice == "6":
-            show_cocktails_sorted_by_abv(cocktails)
+            show_cocktails_sorted_by_abv(cocktails, abv_table, dilution_calc)
         elif choice == "7":
             show_library(bar_library)
         elif choice == "8":
